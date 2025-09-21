@@ -1,4 +1,5 @@
 .navigation{
+    margin: 0;
     background-color: #b8bebf;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -10,15 +11,17 @@
     align-content: center;
 }
 
-.logo {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    height: 50px;
-    width: 50px;
-}
+
 
 .main {
     display: flex;
     justify-content: center;
 }
+
+.copy{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: #b8bebf;
+}
+
